@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import './Home.css'
+import Apple from '../images/Apple-w09.jpg'
 
 const Home = () => {
     const [homes, setHome] = useState([]);
@@ -10,13 +12,14 @@ const Home = () => {
     }, [])
 
     return (
-        <div>
-            <div>
-                <h1>Chooses your smartwatch</h1>
+        <div className='homes-container'>
+            <div className='home-container'>
+                <h1> Chooses your smartwatch</h1>
                 <p>A smart home will not only show you time, it will also make you smart.</p>
+                <button className='btn-color'>Live demo</button>
             </div>
-            <div>
-                <img src="" alt="" />
+            <div className='home-img'>
+                <img src={Apple} alt="" />
             </div>
         </div>
     );

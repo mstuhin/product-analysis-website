@@ -1,0 +1,21 @@
+.home-container {
+    padding: 10px;
+    color: rgb(5, 68, 68);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.homes-container {
+    display: flex;
+    padding: 55px;
+}
+
+.btn-color {
+    background-color: rgb(155, 206, 206);
+    margin-top: 20px;
+}
+
+.home-img {
+    margin-left: 400px;
+}
