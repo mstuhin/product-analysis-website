@@ -1,10 +1,15 @@
-.customer-review {
+.review {
     background-color: aliceblue;
     padding: 25px;
     margin: 25px;
 }
 
-.customer-review img {
+.headline {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.review img {
     height: 100px;
     width: 100px;
     border-radius: 10px;

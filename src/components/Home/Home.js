@@ -36,7 +36,7 @@ const Home = () => {
                 {<CustomerReview></CustomerReview>}
             </div>
             <div>
-                <button>See all Reviews</button>
+                <button >See all Reviews</button>
             </div>
         </div>
 
