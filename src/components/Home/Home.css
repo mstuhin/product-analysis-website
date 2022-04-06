@@ -12,10 +12,15 @@
 }
 
 .btn-color {
+
     background-color: rgb(155, 206, 206);
     margin-top: 20px;
 }
 
 .home-img {
     margin-left: 400px;
+}
+
+.review-3 {
+    margin-top: 55px;
 }

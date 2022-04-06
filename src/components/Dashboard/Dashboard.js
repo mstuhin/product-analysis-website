@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Dashboard = () => {
+    const [dashboards, setDashboard] = useState([]);
+
+    useEffect(() => {
+        fetch('data2.json')
+            .then(res => res.json())
+            .then(data => setDashboard(data));
+
+    }, [])
+
     return (
         <div>
-            <h1>this is dashboadr</h1>
+            <div>
+
+            </div>
         </div>
     );
 };

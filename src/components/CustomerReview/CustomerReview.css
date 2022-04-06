@@ -1,0 +1,11 @@
+.customer-review {
+    background-color: aliceblue;
+    padding: 25px;
+    margin: 25px;
+}
+
+.customer-review img {
+    height: 85px;
+    width: 85px;
+    border-radius: 10px;
+}
